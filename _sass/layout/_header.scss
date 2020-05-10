@@ -158,6 +158,14 @@
 			}
 		}
 
+		.header-email {
+			@include vendor('display', 'flex');
+			@include vendor('justify-content', 'flex-end');
+			@include vendor('flex-grow', '1');
+			height: inherit;
+			line-height: inherit;
+		}
+
 		@include breakpoint(xlarge) {
 			nav {
 				a {
@@ -192,6 +200,10 @@
 
 			.logo {
 				padding: 0 1em;
+			}
+
+			.header-email {
+				display: none;
 			}
 
 			nav {
