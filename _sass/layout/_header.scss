@@ -25,6 +25,7 @@
 		position: fixed;
 		text-transform: uppercase;
 		top: 0;
+		vertical-align: middle;
 		width: 100%;
 		z-index: _misc(z-index-base);
 
@@ -35,6 +36,12 @@
 			height: inherit;
 			line-height: inherit;
 			padding: 0 1.5em;
+			height: 100%;
+
+			img {
+				max-height: 2.5em;
+				vertical-align: middle;
+			}
 
 			strong {
 				@include vendor('transition', (

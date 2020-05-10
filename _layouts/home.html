@@ -19,11 +19,9 @@
                 <h1>{{ page.landing-title }}</h1>
             </header>
             <div class="content">
-                <p style="text-transform: uppercase;">{{ site.description }}</p>
-                <ul class="actions">
-                    <li><a href="#one" class="button next scrolly">Get Started</a></li>
-                </ul>
+                <p>{{ site.description }}</p>
             </div>
+            {% include emailsignup.html %}
         </div>
     </section>
 
@@ -37,15 +35,33 @@
         <section id="two">
             <div class="inner">
                 <header class="major">
-                    <h2>Massa libero</h2>
+                    <h2>Team</h2>
                 </header>
-                <p>{{ content }}</p>
-                <ul class="actions">
-                    <li><a href="landing.html" class="button next">Get Started</a></li>
-                </ul>
+                <div class="team box alt">
+                    <div class="row 50% uniform">
+                        <div class="2u"></div>
+                        <div class="3u">
+                            <span class="image fit"><img src="{{ "assets/images/dhruv.jpg" | relative_url }}" alt="" /></span>
+                            <h4>Dhruv Gupta</h4>
+                            <p>Co-Founder</p>
+                            <a target="_blank" class="icon fa-linkedin" href="http://www.linkedin.com/in/dhruv4"> </a>
+                            <a target="_blank" class="icon fa-twitter" href="http://www.twitter.com/iamdhruv4"></a>
+                            <a target="_blank" class="icon fa-envelope" href="mailto:dhruv@bikepath.io"></a>
+                        </div>
+                        <div class="2u"></div>
+                        <div class="3u$">
+                            <span class="image fit"><img src="{{ "assets/images/soumil.jpg" | relative_url }}" alt="" /></span>
+                            <h4>Soumil Singh</h4>
+                            <p>Co-Founder</p>
+                            <a target="_blank" class="icon fa-linkedin" href="https://www.linkedin.com/in/soumil-singh">
+                            </a>
+                            <a target="_blank" class="icon fa-envelope" href="mailto:soumil@bikepath.io"></a>
+                        </div>
+                        <div class="2u"></div>
+                    </div>
+                </div>
             </div>
         </section>
-
     </div>
 
     {% include footer.html %}
