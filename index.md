@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-landing-title: Prior Art. Simplified.
+landing-title: Knowledge-as-a-Service.
 description: null
 image: null
 author: null
