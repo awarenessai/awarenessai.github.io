@@ -9,7 +9,7 @@
 	#banner {
 		@include vendor('align-items', 'center');
 		// @include vendor('background-image', 'url("../images/banner.jpg")');
-		background-color: black;
+		background-color: white;
 		@include vendor('display', 'flex');
 		@include padding(4em, 0, (2em, 0, 0, 0));
 		background-attachment: fixed;
@@ -24,13 +24,13 @@
 		min-height: 22em;
 		position: relative;
 		top: -3.25em;
-		color: #E7E6E6;
+		color: black !important;
 
 		&:after {
 			@include vendor('transition', 'opacity #{_duration(banner)} ease');
 			@include vendor('transition-delay', '0.75s');
 			@include vendor('pointer-events', 'none');
-			background-color: _palette(bg);
+			background-color: _palette(fg);
 			content: '';
 			display: block;
 			height: 100%;

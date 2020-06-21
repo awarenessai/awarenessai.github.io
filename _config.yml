@@ -1,10 +1,10 @@
 # site settings
-title: Awareness AI
+title: Awareness
 subtitle: by HTML5 UP
-email: youremailaddress@gmail.com
-description: Awareness AI lets you dig deep and visualize events and knowledge like never before.
+email: founders@awarenessai.com
+description: Awareness lets you dig deep and visualize events and knowledge like never before.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: # the base hostname & protocol for your site
+url: https://www.awarenessai.com # the base hostname & protocol for your site
 author:
 street_address: 1234 Somewhere Road
 city: Nashville

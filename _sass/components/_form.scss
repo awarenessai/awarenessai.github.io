@@ -77,12 +77,12 @@
 	select,
 	textarea {
 		@include vendor('appearance', 'none');
-		background: _palette(border-bg);
-		border: none;
+		background: whitesmoke;
+		border: 1px solid black;
 		border-radius: 0;
 		color: inherit;
 		display: block;
-		outline: 0;
+		// outline: 0;
 		padding: 0 1em;
 		text-decoration: none;
 		width: 100%;
