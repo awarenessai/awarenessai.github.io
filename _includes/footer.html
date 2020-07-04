@@ -43,6 +43,9 @@
 			</ul>
 			<ul class="copyright">
 				<li>&copy; {{ site.time | date: '%Y' }} Awareness AI</li>
+				{% if site.email %}
+				<li><a href="mailto:{{ site.email }}" class="icon alt fa-envelope" target="_blank"><span class="label">Email</span></a></li>
+				{% endif %}
 			</ul>
 		</div>
 	</footer>

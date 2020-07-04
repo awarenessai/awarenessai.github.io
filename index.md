@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-landing-title: Knowledge-as-a-Service.
+landing-title: Data science without a data science degree.
 description: null
 image: null
 author: null
