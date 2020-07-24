@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-landing-title: Data science without a data science degree.
+landing-title: Why pay more than you need to?
 description: null
 image: null
 author: null
